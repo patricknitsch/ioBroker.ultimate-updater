@@ -114,10 +114,6 @@ On the very first start nothing is notified; the current state is only recorded.
 - The adapter does **not validate the TLS certificate** by default, because the Web UI normally uses the self-signed Proxmox certificate. Without validation the connection is encrypted, but a man-in-the-middle in your network could read the token. Enable *Validate TLS certificate* if the Web UI uses a trusted certificate, and run the adapter only in a trusted network.
 - Restrict access to the Ultimate Updater Web UI port to the hosts that need it (e.g. firewall rules).
 
-### Home Assistant
-
-The same functions are available as a custom integration for Home Assistant (installable with HACS): see [docs/homeassistant.md](docs/homeassistant.md).
-
 ### Note on the API
 
 The adapter uses the documented, versioned integration API v1 of Ultimate Updater 5.2 (bearer token, separate permissions, HTTPS only), which was designed together with BassT23 ([BassT23/Proxmox#378](https://github.com/BassT23/Proxmox/issues/378)).

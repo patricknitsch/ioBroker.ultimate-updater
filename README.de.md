@@ -114,10 +114,6 @@ Beim allerersten Start wird nichts gemeldet; der aktuelle Stand wird nur erfasst
 - Der Adapter **prüft das TLS-Zertifikat standardmäßig nicht**, weil die Web-UI normalerweise das selbstsignierte Proxmox-Zertifikat verwendet. Die Verbindung ist dann zwar verschlüsselt, ein Angreifer im eigenen Netz könnte den Token aber abfangen (Man-in-the-Middle). Aktiviere *TLS-Zertifikat validieren*, wenn die Web-UI ein vertrauenswürdiges Zertifikat nutzt, und betreibe den Adapter nur in einem vertrauenswürdigen Netz.
 - Beschränke den Zugriff auf den Port der Ultimate-Updater-Web-UI auf die Systeme, die ihn brauchen (z. B. per Firewall).
 
-### Home Assistant
-
-Dieselben Funktionen gibt es als Custom Integration für Home Assistant (installierbar über HACS): siehe [docs/homeassistant.de.md](docs/homeassistant.de.md).
-
 ### Hinweis zur API
 
 Der Adapter nutzt die dokumentierte, versionierte Integrations-API v1 von Ultimate Updater 5.2 (Bearer-Token, eigene Rechte, nur HTTPS), die zusammen mit BassT23 entworfen wurde ([BassT23/Proxmox#378](https://github.com/BassT23/Proxmox/issues/378)).
