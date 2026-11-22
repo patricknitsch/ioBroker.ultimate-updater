@@ -1,0 +1,12 @@
+{
+  "domain": "ultimate_updater",
+  "name": "Ultimate Updater",
+  "codeowners": ["@ipod86"],
+  "config_flow": true,
+  "documentation": "https://github.com/ipod86/ioBroker.ultimate-updater/blob/main/docs/homeassistant.md",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/ipod86/ioBroker.ultimate-updater/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

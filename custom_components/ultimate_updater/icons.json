@@ -1,0 +1,35 @@
+{
+  "entity": {
+    "binary_sensor": {
+      "reboot_required": { "default": "mdi:restart", "state": { "on": "mdi:restart-alert" } },
+      "job_running": { "default": "mdi:progress-wrench" },
+      "bulk_active": { "default": "mdi:playlist-play" }
+    },
+    "button": {
+      "check": { "default": "mdi:magnify-scan" },
+      "check_all": { "default": "mdi:magnify-scan" },
+      "update_all": { "default": "mdi:update" },
+      "update_security": { "default": "mdi:shield-sync" },
+      "stop_bulk": { "default": "mdi:stop-circle-outline" },
+      "cancel_jobs": { "default": "mdi:cancel" }
+    },
+    "event": {
+      "job_finished": { "default": "mdi:clipboard-check-outline" }
+    },
+    "sensor": {
+      "security_updates": { "default": "mdi:shield-alert-outline" },
+      "normal_updates": { "default": "mdi:package-up" },
+      "check_status": { "default": "mdi:list-status" },
+      "job_state": { "default": "mdi:briefcase-clock-outline" },
+      "security_updates_total": { "default": "mdi:shield-alert-outline" },
+      "normal_updates_total": { "default": "mdi:package-up" },
+      "targets_with_updates": { "default": "mdi:server-network" },
+      "reboot_required_count": { "default": "mdi:restart-alert" },
+      "unreachable_count": { "default": "mdi:lan-disconnect" },
+      "summary": { "default": "mdi:text-box-outline" },
+      "bulk_progress": { "default": "mdi:playlist-check" },
+      "target_count": { "default": "mdi:server" },
+      "updater_version": { "default": "mdi:information-outline" }
+    }
+  }
+}
